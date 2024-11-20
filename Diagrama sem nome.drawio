@@ -1436,12 +1436,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Z1fN2YjSt4PJ4LdWTQn_" name="Página-17">
-    <mxGraphModel dx="604" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="733" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zG__XZM_7OFpuRdfEc3c-2" value="O usuário acessa a tela de login." style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="345" y="260" width="135" height="60" as="geometry" />
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-2" value="Chamar Elevador: O usuário utiliza a botoeira externa para chamar o elevador e seleciona o andar desejado." style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="345" y="260" width="165" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zG__XZM_7OFpuRdfEc3c-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-2">
           <mxGeometry relative="1" as="geometry">
@@ -1451,37 +1451,22 @@
         <mxCell id="zG__XZM_7OFpuRdfEc3c-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-5" target="zG__XZM_7OFpuRdfEc3c-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zG__XZM_7OFpuRdfEc3c-5" value="O usuário insere suas credenciais (usuário e senha)." style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="345" y="370" width="135" height="70" as="geometry" />
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-5" value="Configurar Elevadores por Andar: O Usuário Master ou Operador acessa a configuração para definir quais andares cada elevador deve atender." style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="345" y="370" width="225" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="zG__XZM_7OFpuRdfEc3c-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-7" target="zG__XZM_7OFpuRdfEc3c-10">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-7" target="zG__XZM_7OFpuRdfEc3c-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="570" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="zG__XZM_7OFpuRdfEc3c-7" value="O sistema valida as credenciais." style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="342.5" y="480" width="125" height="60" as="geometry" />
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-7" value="Acesso VIP: O usuário, ao selecionar um andar VIP, passa por autenticação para ter o acesso autorizado." style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="187.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zG__XZM_7OFpuRdfEc3c-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-9" target="zG__XZM_7OFpuRdfEc3c-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zG__XZM_7OFpuRdfEc3c-9" value="&lt;div&gt;Se as credenciais forem válidas, o usuário é autenticado.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="326.25" y="670" width="147.5" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="zG__XZM_7OFpuRdfEc3c-10" value="log disponivel?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="360" y="570" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="zG__XZM_7OFpuRdfEc3c-11" value="no, tenta novamente" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-10" target="zG__XZM_7OFpuRdfEc3c-7">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="570" y="510" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="570" y="590" />
-              <mxPoint x="570" y="495" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zG__XZM_7OFpuRdfEc3c-12" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-10">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="400" y="670" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-9" value="&lt;div&gt;Exibir Informações no Display: O elevador atualiza o display com o andar atual e os próximos destinos.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="326.25" y="670" width="183.75" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zG__XZM_7OFpuRdfEc3c-13" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="397.5" y="170" width="30" height="30" as="geometry" />
@@ -1492,22 +1477,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zG__XZM_7OFpuRdfEc3c-15" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="530" y="920" width="30" height="30" as="geometry" />
+          <mxGeometry x="540" y="825" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zG__XZM_7OFpuRdfEc3c-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.509;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-15" target="zG__XZM_7OFpuRdfEc3c-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zG__XZM_7OFpuRdfEc3c-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-18" target="zG__XZM_7OFpuRdfEc3c-19">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="835" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="zG__XZM_7OFpuRdfEc3c-18" value="&lt;div&gt;O sistema registra o login no log.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="326.25" y="790" width="147.5" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="zG__XZM_7OFpuRdfEc3c-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-19" target="zG__XZM_7OFpuRdfEc3c-15">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zG__XZM_7OFpuRdfEc3c-19" value="&lt;div&gt;O usuário ganha acesso às funcionalidades conforme seu nível de autorização.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="540" y="800" width="147.5" height="70" as="geometry" />
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-18" value="&lt;div&gt;Monitorar Capacidade de Carga: O elevador verifica a carga em tempo real, emitindo alertas se a capacidade for excedida, e mantém as portas abertas até que a situação seja normalizada.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="250" y="790" width="223.75" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
