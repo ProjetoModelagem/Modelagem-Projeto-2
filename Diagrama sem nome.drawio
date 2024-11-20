@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.8.4" pages="14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.8.4" pages="15">
   <diagram name="Página-1" id="xrkl8TNE4yBXMPA0YUC_">
     <mxGraphModel dx="2342" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1293,6 +1293,80 @@
         </mxCell>
         <mxCell id="bYdJwHqJfoaEDykFqr6B-1" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="740" y="770" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RHIRO__-c1U6YtjRGeC2" name="Página-15">
+    <mxGraphModel dx="789" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uq6jESmVeTykj2lKzg3s-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="390" y="170" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uq6jESmVeTykj2lKzg3s-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="uq6jESmVeTykj2lKzg3s-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uq6jESmVeTykj2lKzg3s-3" value="O Usuário Master acessa a opção &quot;Controlar Nível de Autorização&quot;." style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="345" y="260" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uq6jESmVeTykj2lKzg3s-4" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="uq6jESmVeTykj2lKzg3s-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uq6jESmVeTykj2lKzg3s-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uq6jESmVeTykj2lKzg3s-6" target="uq6jESmVeTykj2lKzg3s-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq6jESmVeTykj2lKzg3s-6" value="O sistema exibe a lista de usuários e seus níveis de permissão." style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="345" y="370" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uq6jESmVeTykj2lKzg3s-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uq6jESmVeTykj2lKzg3s-8" target="uq6jESmVeTykj2lKzg3s-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq6jESmVeTykj2lKzg3s-8" value="O Usuário Master seleciona um usuário e define ou modifica as permissões." style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="342.5" y="480" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uq6jESmVeTykj2lKzg3s-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uq6jESmVeTykj2lKzg3s-10" target="uq6jESmVeTykj2lKzg3s-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq6jESmVeTykj2lKzg3s-10" value="&lt;div&gt;O sistema salva as alterações.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="326.25" y="670" width="147.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uq6jESmVeTykj2lKzg3s-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uq6jESmVeTykj2lKzg3s-12" target="uq6jESmVeTykj2lKzg3s-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq6jESmVeTykj2lKzg3s-12" value="&lt;div&gt;O sistema registra a ação em logs.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="830" width="147.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uq6jESmVeTykj2lKzg3s-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uq6jESmVeTykj2lKzg3s-14" target="uq6jESmVeTykj2lKzg3s-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uq6jESmVeTykj2lKzg3s-14" value="&lt;div&gt;O sistema informa que o nível de autorização foi atualizado com sucesso.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="830" width="147.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uq6jESmVeTykj2lKzg3s-18" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="740" y="770" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uq6jESmVeTykj2lKzg3s-19" value="nivel valido?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="570" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uq6jESmVeTykj2lKzg3s-20" value="no, tenta novamente" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" source="uq6jESmVeTykj2lKzg3s-19" parent="1" target="uq6jESmVeTykj2lKzg3s-8">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="570" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="590" />
+              <mxPoint x="570" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uq6jESmVeTykj2lKzg3s-21" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="uq6jESmVeTykj2lKzg3s-19" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="400" y="670" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
