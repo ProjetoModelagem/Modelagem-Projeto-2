@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.8.4" pages="17">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.8.4" pages="18">
   <diagram name="Página-1" id="xrkl8TNE4yBXMPA0YUC_">
     <mxGraphModel dx="2342" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1489,6 +1489,44 @@
         </mxCell>
         <mxCell id="zG__XZM_7OFpuRdfEc3c-18" value="&lt;div&gt;Monitorar Capacidade de Carga: O elevador verifica a carga em tempo real, emitindo alertas se a capacidade for excedida, e mantém as portas abertas até que a situação seja normalizada.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="250" y="790" width="223.75" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sjdPfLkogthI5PJgaIBr" name="Página-18">
+    <mxGraphModel dx="513" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r9cRPwYFjETm41eSO4f3-1" value="Procedimento de Incêndio: Todos os elevadores se dirigem ao térreo e abrem as portas para evacuação" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="345" y="260" width="165" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r9cRPwYFjETm41eSO4f3-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="r9cRPwYFjETm41eSO4f3-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9cRPwYFjETm41eSO4f3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r9cRPwYFjETm41eSO4f3-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="373.75" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9cRPwYFjETm41eSO4f3-4" value="Procedimento em Outras Emergências: O elevador para no andar mais próximo e abre as portas, permitindo a evacuação dos passageiros." style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="345" y="370" width="225" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="r9cRPwYFjETm41eSO4f3-9" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="170" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9cRPwYFjETm41eSO4f3-10" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r9cRPwYFjETm41eSO4f3-9" target="r9cRPwYFjETm41eSO4f3-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r9cRPwYFjETm41eSO4f3-11" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="480" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r9cRPwYFjETm41eSO4f3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.509;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="r9cRPwYFjETm41eSO4f3-11" target="r9cRPwYFjETm41eSO4f3-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
