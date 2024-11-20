@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.8.4" pages="16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.8.4" pages="17">
   <diagram name="Página-1" id="xrkl8TNE4yBXMPA0YUC_">
     <mxGraphModel dx="2342" dy="1013" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1372,7 +1372,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4fk_T5h4N1SgQ9AOHcXF" name="Página-16">
-    <mxGraphModel dx="513" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="933" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1431,6 +1431,83 @@
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="400" y="670" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Z1fN2YjSt4PJ4LdWTQn_" name="Página-17">
+    <mxGraphModel dx="604" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-2" value="O usuário acessa a tela de login." style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="345" y="260" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-5" target="zG__XZM_7OFpuRdfEc3c-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-5" value="O usuário insere suas credenciais (usuário e senha)." style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="345" y="370" width="135" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-7" target="zG__XZM_7OFpuRdfEc3c-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-7" value="O sistema valida as credenciais." style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="342.5" y="480" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-9" target="zG__XZM_7OFpuRdfEc3c-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-9" value="&lt;div&gt;Se as credenciais forem válidas, o usuário é autenticado.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="326.25" y="670" width="147.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-10" value="log disponivel?" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="570" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-11" value="no, tenta novamente" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-10" target="zG__XZM_7OFpuRdfEc3c-7">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="570" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="590" />
+              <mxPoint x="570" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-12" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-10">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="400" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-13" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="170" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-14" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="zG__XZM_7OFpuRdfEc3c-13" parent="1" target="zG__XZM_7OFpuRdfEc3c-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-15" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="530" y="920" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.509;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-15" target="zG__XZM_7OFpuRdfEc3c-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-18" target="zG__XZM_7OFpuRdfEc3c-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-18" value="&lt;div&gt;O sistema registra o login no log.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="326.25" y="790" width="147.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zG__XZM_7OFpuRdfEc3c-19" target="zG__XZM_7OFpuRdfEc3c-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zG__XZM_7OFpuRdfEc3c-19" value="&lt;div&gt;O usuário ganha acesso às funcionalidades conforme seu nível de autorização.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="800" width="147.5" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
